@@ -58,6 +58,7 @@ nav.navbar a {
 
 .img_box {
     position: relative;
+    display: block;
 }
 
 .image {
@@ -89,10 +90,16 @@ nav.navbar a {
 
 .img_box .eye_icon {
     position: absolute;
-    bottom: 10px;
-    width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .nopadding{
     padding: initial;
+}
+
+.img_box .eye_icon i {
+    color: #fff;
+    font-size: 30px;
 }
