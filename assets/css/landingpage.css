@@ -346,8 +346,18 @@ footer .item ul {
 }
 
 .brends {
-    text-align: center;
+    /* text-align: center; */
     padding: 70px;
+    /*box-sizing: initial; */
+}
+
+.brends .item {
+    /*box-sizing: initial;*/
+}
+
+.brends .item img{
+    display: block;
+    margin: 0 auto;
 }
 
 .needproject {
