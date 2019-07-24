@@ -1,0 +1,432 @@
+body {
+    color: #191919;
+    font-family: "Montserrat";
+}
+
+a {
+    color: #191919;
+}
+
+a:hover {
+    color: #10c9c3;
+}
+
+i {
+    color: #191919;
+}
+
+nav.navbar a {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.masthead {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+}
+
+.masthead h1 {
+    color: #171717;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 0.38px;
+}
+
+.masthead h3 {
+    max-width: 567px;
+    color: #787878;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.portfolio .hover img {
+    width: 100%;
+    height: 300px;
+}
+
+/* .hover:hover {
+    color: #0eb493;
+} */
+
+.img_box {
+    position: relative;
+    display: block;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.img_box:hover .overlay {
+    opacity: 1;
+}
+
+.hover:hover {
+    color: #0eb493;
+}
+
+.img_box .eye_icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nopadding {
+    padding: initial;
+}
+
+.img_box .eye_icon i {
+    color: #fff;
+    font-size: 30px;
+}
+
+footer {
+    background: #141414;
+    background-size: 100%;
+}
+
+footer .item h3 {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.18px;
+    padding-bottom: 27px;
+}
+
+footer .item p {
+    max-width: 225px;
+}
+
+footer .item p, footer .item {
+    color: #bcbcbc;
+    font-family: "Nunito Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.07px;
+}
+
+footer .container .row {
+    padding-top: 52px;
+}
+
+footer .item ul {
+    list-style-type: none;
+    display: inline-block;
+    line-height: 28.5px;
+    vertical-align: top;
+}
+
+header.about {
+    background: #3e3e3e;
+    background-size: 100%;
+    padding: 120px 0;
+    min-height: 0;
+}
+
+header.about h1 {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0.38px;
+}
+
+header.about h3 {
+    color: #ffffff;
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.09px;
+    padding-top: 21px;
+    max-width: 515px;
+}
+
+.statistics {
+    background-color: #10c9c3;
+    background-size: 100%;
+    padding: 62px 0px;
+}
+
+.statistics .item h3 {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.54px;
+    display: block;
+}
+
+.statistics .item {
+    padding-top: 24px;
+}
+
+.statistics .item p {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    line-height: 1;
+}
+
+.statistics .item .left {
+    display: inline-block;
+}
+
+.statistics .item .left i {
+    font-size: 36px;
+    color: #fff;
+}
+
+.statistics .item .right {
+    display: inline-block;
+    vertical-align: sub;
+    padding-left: 20px;
+}
+
+.aboutme .item h3 {
+    color: #171717;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 84px;
+    letter-spacing: 0.3px;
+}
+
+.aboutme .item p {
+    color: #787878;
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    padding-bottom: 15px;
+}
+
+.aboutme .needproject h2 {
+    color: #1d1d1d;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 84px;
+    letter-spacing: 0.3px;
+    padding-top: 100px;
+}
+
+.aboutme .needproject .secondary_text {
+    max-width: 540px;
+    color: #787878;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    padding-bottom: 38px;
+}
+
+.aboutme .needproject .letstalk {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.aboutme .needproject .letstalk button {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    background: #10c9c3;
+    border: none;
+    padding: 18px 50px;
+}
+
+.masthead .item h3 {
+    color: #171717;
+    font-family: Montserrat;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 84px;
+    letter-spacing: 0.38px;
+}
+
+.masthead .item p {
+    color: #787878;
+    font-family: "Nunito Sans";
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+}
+
+.masthead .item ul {
+    list-style-type: none;
+    display: inline-block;
+    color: #787878;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 0px;
+}
+
+.masthead .item ul span {
+    color: #171717;
+    font-family: "Nunito Sans";
+    font-weight: 700;
+    letter-spacing: 0.08px;
+}
+
+.masthead .item img {
+    width: 100%;
+}
+
+.menu {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 45px;
+}
+
+.menu .item button {
+    background: 0;
+    border: 0;
+    color: #1d1d1d;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 650;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.menu .item button span {
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.24px;
+}
+
+.head-content {
+    background: #f5f5f5;
+    background-size: 100%;
+    padding-top: 100px;
+}
+
+.head-content h3 {
+    color: #171717;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    padding-bottom: 43px;
+}
+
+.head-content p {
+    color: #787878;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    padding-bottom: 36px;
+    width: 391px;
+}
+
+.head-content ul {
+    list-style-type: none;
+    display: inline-block;
+    color: #787878;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    padding-left: 0;
+}
+
+.head-content ul span {
+    color: #171717;
+    font-family: "Nunito Sans";
+    font-weight: 700;
+    letter-spacing: 0.08px;
+}
+
+.head-content input {
+    background: #ffffff;
+    border: 0;
+}
+
+.head-content input ::placeholder {
+    color: #787878;
+    font-family: "Nunito Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.07px;
+}
+
+.head-content button {
+    background: #10c9c3;
+    border: #10c9c3;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    padding: 15px;
+}
+
+.head-content textarea {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 144px;
+    border: 0;
+}
+
+.head-content .item {
+    width: 50%;
+}
+
+.head-content .send_message {
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.page-contact .form-inline .form-group {
+    width: 50%;
+}
+
+.page-contact .form-inline .form-group input{
+    width: 100%;
+}

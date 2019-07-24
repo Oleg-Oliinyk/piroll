@@ -1,0 +1,431 @@
+body {
+    color: #191919;
+    font-family: "Montserrat";
+}
+
+a {
+    color: #191919;
+}
+
+a:hover {
+    color: #10c9c3;
+}
+
+i {
+    color: #191919;
+}
+
+nav {
+    background: #e9e9e9;
+}
+
+nav.navbar a {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+footer {
+    background: #141414;
+    background-size: 100%;
+}
+
+footer .item h3 {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.18px;
+    padding-bottom: 27px;
+}
+
+footer .item p {
+    max-width: 225px;
+}
+
+footer .item p, footer .item {
+    color: #bcbcbc;
+    font-family: "Nunito Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.07px;
+}
+
+footer .container .row {
+    padding-top: 52px;
+}
+
+footer .item ul {
+    list-style-type: none;
+    display: inline-block;
+    line-height: 28.5px;
+    vertical-align: top;
+}
+
+.masthead img {
+    width: 100%;
+}
+
+.masthead h3 {
+    color: #1d1d1d;
+    font-family: Montserrat;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0.38px;
+    padding-bottom: 6px;
+}
+
+.masthead p {
+    color: #787878;
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.09px;
+    padding-bottom: 39px;
+    max-width: 475px;
+}
+
+.masthead button {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    background: #10c9c3;
+    border: none;
+    padding: 22px 46px;
+}
+
+.masthead {
+    background: #e9e9e9;
+    padding-top: 148px;
+    padding-bottom: 200px;
+}
+
+.aboutus {
+    padding: 100px 0;
+}
+
+.aboutus h3 {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+.aboutus p {
+    color: #787878;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.08px;
+    max-width: 620px;
+    margin: 0 auto;
+    padding-bottom: 31px;
+}
+
+.proskills .progress {
+    height: 5px;
+}
+
+.proskills p {
+    padding-top: 40px;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.proskills img {
+    width: 100%;
+}
+
+.statistics {
+    background-color: #10c9c3;
+    background-size: 100%;
+    padding: 62px 0px;
+}
+
+.statistics .item h3 {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.54px;
+    display: block;
+}
+
+.statistics .item {
+    padding-top: 24px;
+}
+
+.statistics .item p {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    line-height: 1;
+}
+
+.statistics .item .left {
+    display: inline-block;
+}
+
+.statistics .item .left i {
+    font-size: 36px;
+    color: #fff;
+}
+
+.statistics .item .right {
+    display: inline-block;
+    vertical-align: sub;
+    padding-left: 20px;
+}
+
+.img_box {
+    position: relative;
+    display: block;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.img_box:hover .overlay {
+    opacity: 1;
+}
+
+.hover:hover {
+    color: #0eb493;
+}
+
+.img_box .eye_icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nopadding {
+    padding: initial;
+}
+
+.img_box .eye_icon i {
+    color: #fff;
+    font-size: 30px;
+}
+
+.portfolio .secondary-text {
+    background: #f5f5f5;
+    padding: 41px;
+    color: #8e8e8e;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.ourworkprocess {
+    padding: 100px 0;
+}
+
+.ourworkprocess h3 {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+.ourworkprocess p {
+    color: #787878;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.08px;
+    max-width: 501px;
+    margin: 0 auto;
+    padding-bottom: 31px;
+}
+
+.directions {
+    padding: 100px;
+}
+
+.directions h3 {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    padding-top: 30px;
+}
+
+.directions p {
+    color: #787878;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.08px;
+    padding-bottom: 34px;
+}
+
+.michaelhopkins {
+    background: #10c9c3;
+    background-size: 100%;
+}
+
+.michaelhopkins .swiper-slide {
+    padding: 178px 0;
+}
+
+.michaelhopkins .swiper-slide p {
+    color: #ffffff;
+    font-family: Montserrat;
+    /* font-size: 24px; */
+    font-weight: 500;
+    font-size: 30px;
+    /* letter-spacing: 0.3px; */
+    letter-spacing: 0.24px;
+    padding-bottom: 30px;
+    max-width: 807px;
+    margin: 0 auto;
+}
+
+.michaelhopkins .swiper-slide span.author {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.swiper-pagination-bullet-active, .swiper-pagination-bullet {
+    background-color: #fff;
+}
+
+.swiper-pagination-bullet {
+    width: 6px;
+    height: 6px;
+}
+
+.swiper-pagination-bullet-active {
+    width: 8px;
+    height: 8px;
+}
+
+.brends {
+    /* text-align: center; */
+    padding: 70px;
+    /*box-sizing: initial; */
+}
+
+.brends .item {
+    /*box-sizing: initial;*/
+}
+
+.brends .item img{
+    display: block;
+    margin: 0 auto;
+}
+
+.needproject {
+    padding-bottom: 100px;
+}
+
+.needproject h3 {
+    color: #1d1d1d;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+.needproject p {
+    color: #787878;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.08px;
+    max-width: 540px;
+    margin: 0 auto;
+    padding-bottom: 31px;
+}
+
+.needproject input {
+    background: #ffffff;
+    border: 0;
+}
+
+.needproject input ::placeholder {
+    color: #787878;
+    font-family: "Nunito Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.07px;
+}
+
+.needproject button {
+    background: #10c9c3;
+    border: #10c9c3;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    padding: 15px;
+}
+
+.needproject textarea {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 144px;
+    border: 0;
+}
+
+.needproject form {
+    text-align: center;
+    max-width: 670px;
+    margin: 0 auto;
+}
+
+.needproject .form-inline .form-group {
+    width: 50%;
+}
+
+.needproject .form-inline .form-group input{
+    width: 100%;
+}
