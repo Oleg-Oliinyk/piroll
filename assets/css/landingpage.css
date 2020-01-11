@@ -351,18 +351,26 @@ footer .item ul {
     height: 8px;
 }
 
-.brends {
+.brands {
     /* text-align: center; */
     padding: 70px;
     /*box-sizing: initial; */
 }
 
+<<<<<<< HEAD
+.brands .item {
+    /*box-sizing: initial;*/
+}
+
+.brands .item img{
+=======
 
 /*.brends .item {
     box-sizing: initial;
 } */
 
 */ .brends .item img {
+>>>>>>> master
     display: block;
     margin: 0 auto;
 }
