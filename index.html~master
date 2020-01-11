@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <title>Piroll</title>
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/landingpage.css">
+
+    <script src="https://kit.fontawesome.com/606b58db30.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="index.html"><img src="assets/images/logo.png">
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="home.html">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="about.html">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#work">work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#process">process</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#services">services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#testimonials">testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="contact.html">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="masthead">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="assets/images_landingpage/wedesignanddevelop.jpg" alt="We Design and Develop">
+                </div>
+                <div class="col-lg-6">
+                    <h3>We Design and Develop</h3>
+                    <p>We are a new design studio based in USA. We have over 20 years of combined experience, and know a thing or two about designing websites and mobile apps.</p>
+                    <button type="submit">CONTACT US</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="aboutus">
+        <div class="mx-auto text-center">
+            <h3>About Us</h3>
+            <p>Divide have don't man wherein air fourth. Own itself make have night won't make.<br> A you under Seed appear which good give. Own give air without fowl moveth dry first heaven fruit, dominion she'd won't very all.
+            </p>
+            <img src="assets/images_landingpage/signature.png" alt="signature">
+        </div>
+    </section>
+
+    <section class="proskills">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3>Professional Skills</h3>
+                    <p>UI/UX Design 75%</p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <p>web development 90%</p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <p>marketing 65%</p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="assets/images_landingpage/proskills.jpg" alt="Professional Skills">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="statistics">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 item">
+                    <div class="left">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="right">
+                        <h3>548</h3>
+                        <p>projects completed</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 item">
+                    <div class="left">
+                        <i class="far fa-clock"></i>
+                    </div>
+                    <div class="right">
+                        <h3>1465</h3>
+                        <p>WORKING HOURS</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-6 item">
+                    <div class="left">
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="right">
+                        <h3>612</h3>
+                        <p>POSITIVE FEEDBACKS</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-6 item">
+                    <div class="left">
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="right">
+                        <h3>735</h3>
+                        <p>HAPPY CLIENTS</p>
+                    </div>
+                </div>`
+            </div>
+    </section>
+
+    <section id="work" class="portfolio">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 nopadding hover">
+                    <a class="img_box" href="#">
+                        <img src="assets/images/img1.jpg" alt="" class="image">
+                        <div class="overlay">
+                            <div class="eye_icon">
+                                <i class="far fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 nopadding hover">
+                    <a class="img_box" href="#">
+                        <img src="assets/images/img2.jpg" alt="" class="image">
+                        <div class="overlay">
+                            <div class="eye_icon">
+                                <i class="far fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 nopadding hover">
+                    <a class="img_box" href="#">
+                        <img src="assets/images/img3.jpg" alt="" class="image">
+                        <div class="overlay">
+                            <div class="eye_icon">
+                                <i class="far fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 nopadding hover">
+                    <a class="img_box" href="#">
+                        <img src="assets/images/img4.jpg" alt="" class="image">
+                        <div class="overlay">
+                            <div class="eye_icon">
+                                <i class="far fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 nopadding hover">
+                    <a class="img_box" href="#">
+                        <img src="assets/images/img5.jpg" alt="" class="image">
+                        <div class="overlay">
+                            <div class="eye_icon">
+                                <i class="far fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 nopadding hover">
+                    <a class="img_box" href="#">
+                        <img src="assets/images/img6.jpg" alt="" class="image">
+                        <div class="overlay">
+                            <div class="eye_icon">
+                                <i class="far fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 nopadding hover">
+                    <a class="img_box" href="#">
+                        <img src="assets/images/img7.jpg" alt="" class="image">
+                        <div class="overlay">
+                            <div class="eye_icon">
+                                <i class="far fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 nopadding hover">
+                    <a class="img_box" href="#">
+                        <img src="assets/images/img8.jpg" alt="" class="image">
+                        <div class="overlay">
+                            <div class="eye_icon">
+                                <i class="far fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="text-center secondary-text">
+                <a href="#">load more work</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="process" class="ourworkprocess">
+        <div class="mx-auto text-center">
+            <h3>Our Work Process</h3>
+            <p>Was years it seasons was there form he in in them together over that, third sixth gathered female creeping bearing behold years.</p>
+        </div>
+    </section>
+
+    <section class="videoyoutube text-center">
+        <iframe width="1170" height="571" src="https://www.youtube.com/embed/0K-g84sK6R0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <sectioni id="services" class="directions">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 text-center">
+                    <img src="assets/images_landingpage/icon_diamond.png" alt="Icon dimond">
+                    <h3>ui / ux design</h3>
+                    <p>Be set fourth land god darkness make it wherein own</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <img src="assets/images_landingpage/icon_arc.png" alt="">
+                    <h3>web development</h3>
+                    <p>A she'd them bring void moving third she'd kind fill</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <img src="assets/images_landingpage/icon_phone.png" alt="">
+                    <h3>app / mobile</h3>
+                    <p>Dominion man second spirit he, earth they're creeping</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <img src="assets/images_landingpage/icon_joy.png" alt="">
+                    <h3>game design</h3>
+                    <p>Morning his saying moveth it multiply appear life be</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <img src="assets/images_landingpage/icon_plane.png" alt="">
+                    <h3>SEO / marketing</h3>
+                    <p>Give won't after land fill creeping meat you, may</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <img src="assets/images_landingpage/icon_star.png" alt="">
+                    <h3>photography</h3>
+                    <p>Creepeth one seas cattle grass give moving saw give</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <img src="assets/images_landingpage/icon_magic-wand.png" alt="">
+                    <h3>graphic design</h3>
+                    <p>Open, great whales air rule for, fourth life whales</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <img src="assets/images_landingpage/icon_paint-bucket.png" alt="">
+                    <h3>illustrations</h3>
+                    <p>Whales likeness hath, man kind for them air two won't</p>
+                </div>
+            </div>
+        </div>
+    </sectioni>
+
+    <section id="testimonials" class="michaelhopkins mx-auto text-center">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <p>“ Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap.”</p> <span class="author">Michael Hopkins</span>
+                </div>
+                <div class="swiper-slide">
+                    <p>“ Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap.”</p> <span class="author">Michael Hopkins</span>
+                </div>
+                <div class="swiper-slide">
+                    <p>“ Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap.”</p> <span class="author">Michael Hopkins</span>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="brends ">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2 offset-md-1 item">
+                    <img src="assets/images_landingpage/icon_handmade1.png" alt="">
+                </div>
+                <div class="col-md-2 item">
+                    <img src="assets/images_landingpage/icon_mountain.png" alt="">
+                </div>
+                <div class="col-md-2 item">
+                    <img src="assets/images_landingpage/icon_collection.png" alt="">
+                </div>
+                <div class="col-md-2 item">
+                    <img src="assets/images_landingpage/icon_mountainbike.png" alt="">
+                </div>
+                <div class="col-md-2 item">
+                    <img src="assets/images_landingpage/icon_handmade2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="needproject">
+        <div class="mx-auto text-center">
+            <h3>Need a Project?</h3>
+            <p>Let us know what you're looking for in an agency. We'll take a look and see if this could be the start of something beautiful.</p>
+            <form>
+                <div class="form-inline">
+                    <div class="form-group">
+                        <input type="text" class="form-control mb-2 mr-3" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control mb-2 ml-3" id="exampleInputPassword1" placeholder="Your Email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="message" class="form-control" id="exampleInputPassword1" placeholder="Your Title">
+                </div>
+                <div class="form-group">
+                    <textarea type="message" class="form-control" id="exampleInputPassword1" placeholder="Your Comment"></textarea>
+                </div>
+                <div class="send_message">
+                    <button type="submit">SEND MESSAGE</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 item">
+                    <h3>Piroll Design, Inc.</h3>
+                    <p>© 2017 Piroll. All rights reserved. Designed by robirurk.</p>
+                </div>
+                <div class="col-lg-6 item">
+                    <ul class style="padding: 0;">
+                        <li>hello@pirolltheme.com</li>
+                        <li>+44 987 065 908</li>
+                    </ul>
+                    <ul>
+                        <li>Projects</li>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Carreer</li>
+                    </ul>
+                    <ul>
+                        <li>News</li>
+                        <li>Events</li>
+                        <li>Contact</li>
+                        <li>Legals</li>
+                    </ul>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Dribbble</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
+</body>
+
+</html>
